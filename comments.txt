@@ -1,0 +1,43 @@
+        # self.title = Label(self.logIn,text="LOG IN",font=("bold",20), fg="white").grid(row=0,column=5)
+        #
+        # self.userNameS = StringVar()
+        # self.passwordS = StringVar()
+        #
+        # self.userNameLabel = Label(self.logIn, text="USERNAME",fg="white", font=("bold",10)).grid(row=2, column=4)
+        # self.userNameEntry = Entry(self.logIn, width=50, borderwidth=5, textvariable=self.userNameS).grid(row=2, column=5)
+        # self.passwordLabel=Label(self.logIn, text="PASSWORD",fg="white",font=("bold",10)).grid(row=3, column=4)
+        # self.passwordEntry= Entry(self.logIn, width=50, borderwidth=5, textvariable=self.passwordS, show="*").grid(row=3, column=5)
+        #
+        # self.userName = self.userNameS.get()
+        # self.password = self.passwordS.get()
+        #
+        # self.loginButton = Button(self.logIn, text="Log In", command = self.validateLogin).grid(row=4, column=5)
+
+    # def validateLogin(self):
+    #     if((self.userName == globalUserID ) & (self.password == )):
+    #         messagebox.showinfo("LOGIN SUCCESSFUL")
+    #     else:
+    #         messagebox.showerror("Invalid Credentials!!")
+# def login_verify():
+#     logIn_window = Tk()
+#     logIn_window.title("LOG_IN PAGE")
+#
+#     # userName
+#     userNameLabel = Label(logIn_window, text="USERNAME").grid(row=0, column=0)
+#     userName = StringVar()
+#     userNameEntry = Entry(logIn_window, width=50, borderwidth=8, textvariable=userName).grid(row=0, column=1)
+#
+#     # password
+#     passwordLabel = Label(logIn_window, text="PASSWORD").grid(row=1, column=0)
+#     password = StringVar()
+#     passwordEntry = Entry(logIn_window, width=50, borderwidth=8, textvariable=password, show="*").grid(row=1, column=1)
+#
+#     loginButton = Button(logIn_window, text="Log In", command=validateLogin).grid(row=2, column=1)
+#
+#     logIn_window.mainloop()
+# def validateLogin(username, password):
+# 	print("Username entered :", username.get())
+# 	print("Password entered :", password.get())
+# 	return
+
+
